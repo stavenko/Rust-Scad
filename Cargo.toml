@@ -1,6 +1,6 @@
 [package]
 name = "scad"
-version = "1.2.2"
+version = "1.2.3"
 authors = ["TheZoq2 <frans.skarman@gmail.com>"]
 
 description = "A crate for generating OpenSCAD models using rust"
@@ -8,7 +8,7 @@ repository = "https://github.com/thezoq2/Rust-Scad"
 documentation = "http://thezoq2.github.io/Rust-Scad/doc/scad_generator/index.html"
 license = "LGPL-2.0-or-later"
 readme = "Readme.md"
-edition = "2018"
+edition = "2021"
 
 [dependencies]
-nalgebra= "0.27.1"
+nalgebra= "0.32.3"

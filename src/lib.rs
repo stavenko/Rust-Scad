@@ -128,6 +128,8 @@ mod scad_type;
 
 pub mod scad_macros;
 
+pub use nalgebra;
+
 pub use scad_element::CircleType::*;
 pub use scad_element::ScadElement::*;
 pub use scad_element::*;
